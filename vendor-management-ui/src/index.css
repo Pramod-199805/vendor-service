@@ -1,0 +1,81 @@
+/*
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  margin: 0px;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.err::placeholder {
+  color: rgb(227, 0, 0);
+}
+.bg-clr {
+  background: radial-gradient(
+    circle at 85.4% 50.8%,
+    rgb(18 43 109) 0%,
+    rgb(3, 22, 65) 74.2%
+  );
+  width: 100%;
+  height: 100vh;
+}
+.m-top {
+  margin-top: 180px;
+}
+
+.text-white-color {
+  color: white;
+  font-size: 50px;
+}
+
+.bg-img {
+  width: 40%;
+}
+.landing-page {
+  width: 60%;
+  height: 100vh;
+}
+
+.reg-input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid black;
+  background-color: rgb(76, 75, 75);
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+}
+
+.reg-input:focus {
+  border-color: black; /* Border color on focus (same as default) */
+  outline: none;
+}
+.reg-btn {
+  width: 15%;
+  padding: 12px;
+  background-color: rgb(22, 58, 124);
+  border: 1px solid rgb(50, 47, 109);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alert-bg {
+  background: rgba(224, 4, 4, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19px);
+  -webkit-backdrop-filter: blur(19px);
+  border-radius: 4px;
+}
